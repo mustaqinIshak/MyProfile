@@ -180,3 +180,17 @@ article img {
 .tes {
     background-color: black;
 }
+
+#img-bg {
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#img-bg2 {
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
