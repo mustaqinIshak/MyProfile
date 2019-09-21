@@ -4,43 +4,51 @@
     box-sizing: border-box;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-   
-}
 
-#content-wrap {
-    padding-bottom: 2.5rem;
-}
-
-header {
-    width: 100%;
-    height: 4.5rem;
-    top: 0;
+nav {
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
     background-color: black;
-    color: white;
-    padding: 15px 30px;;
-    margin-bottom: 10px;
     
 }
 
-header ul {
+.logo a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px; 
+}
+
+#nav-link {
+    display: flex;
+    justify-content: space-around;
+    /* background-color:red; */
+    width: 30% 
+}
+
+#nav-link li:hover {
+    background-color: red;
+}
+ 
+#nav-link li {
     list-style: none;
-    float: right;
-    margin: 15px 0;
+    padding: 10px;
 }
 
-header h1 {
-    float: left;
+#nav-link a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 14px;
+
 }
 
-header li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-section {
+#blog-artikel {
     padding: 0px 150px;
 }
 
@@ -63,11 +71,58 @@ article img {
     width: 40%;
     height: auto;
 }
-#footer {
-    
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 7.5rem;
-    background-color: blueviolet;
+
+.profile-picture {
+    display: flex;
+    justify-content: space-around;
+    min-height: 200px;
+    background-color: black;
+    position: relative;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 50%;
+    height: 50%;
+   
+}
+
+.my-profile {
+    top:0;
+    left:0;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;    
+}
+
+.my-name {
+    font-family: 'roboto', sans-serif;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.asal-lahir {
+    bottom:0;
+    left:0;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    position: absolute; 
+}
+
+.from {
+    font-family: 'roboto', sans-serif;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;    
 }

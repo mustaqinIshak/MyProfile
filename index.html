@@ -5,76 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,300i,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="page-container">
-        <div id="content-wrap ">
-            <header>
-                <h1>My Profile</h1>
-                <ul>
-                    <li>About</li>
-                    <li>contact</li>
-                </ul>
-            </header>
-            <section>
-                <h1 style="margin-bottom: 40px">BLOG: PHASE 0 MINGGU PERTAMA</h1>
-                <article>
-                    <span id="tanggal-post">tgl: 21/September/2019</span>
-                    <div id="html-css">
-                        <h3>HTML dan CSS </h3>
-                        <p>
-                            HTML dan CSS merupakan bagian awal untuk membangun sebuah website. Dengan mengetahun HTML dan CSS, kita bisa dengan membangu website kita sendiri.
-                            Ada beberapa perlu diketahui sebelum kita masuk ke HTML dan CSS.
-                            <strong><em>HTML</em></strong> adalah adalah kependekan dari <em>Hyper Text Markup Language</em> , yaitu sebuah bahasa markup yang digunakan untuk membuat sebuah halaman web.Sedangkan 
-                            <strong><em>CSS</em></strong> adalah bahasa Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML.  
-                        </p>
-                        
-                        <p>
-                            Sekarang kita masuk ke pembahasan pertama, yaitu HTML<br>
-                            Hal pertama yg perlu kita ketahui adalah tipe filenya, tipe file HTML yaitu sama dengan namanya .html. Jadi ketika ingin membuat file HTML, kita tau dalam format apa kita
-                            membuatnya. dan untuk membuka file .html kita butuh text editor, ada banyak macam untuk tipe text edito. untuk di windows sendiri biasanya sudah tersedia text editor yang bernama
-                            note.exe.<br><br>
-                            Tapi pada umumnya biasanya seorang programmer membuka dan membuat file html nya di :
-                        </p>
-                        <ul>
-                            <li>Visual Studio Code</li>
-                            <li>Atom</li>
-                            <li>Sublime Text</li>
-                            <li>DLL</li>
-                        </ul>
-                        <p>
-                            Tidak ada perbedaan signifikan dari text editor tersebut, cuman perbedaannya ada pada fitur yang di sediakan masing-masing text editor. Tapi fungsi utamanya tetap sama.<br>
-                            Berikut salah satu contoh tampilan text editor :
-                        </p>
-    
-                        <img src="assets/img/ex text editor.png" alt="text-editor">
-                    </div>
-                    
-                    <div id="html">
-                        <h2>HTML</h2>
-                        <p>
-                            Sekarang kita akan mempelajarai struktur kode di dalam html. Perlu diketahui untuk membuat sebuah website kita perlu menulis beberapa tag dasar yaitu
-                            <em>!DOCTYPE html</em>, <em>html</em>, <em>head</em>, dan <em>body</em>. kita mulai dari <em>!DOCTYPE html</em>, tag di tulis paling awal dan tidak boleh di tulis 
-                            selain di atas. karena cara kerja suatu program itu dimulai dari atas sampai ke bawah, gunanya tag <em>!DOCTYPE html</em> adalah untuk memberitahu browser bahwa 
-                            dokument ini bertipe HTML5. HTML5 adalah versi terbaru dari html yang menjadi standar untuk mebuat website.<br>
-                            Lanjut, kita akan menuliskan <em>html</em> setelah <em>!DOCTYPE html</em>. Tag ini sebagai persyaratan untuk menulis kode html, ada aturan untuk penulisan tag.
-                            tag html penulisannya dimulai dari tag html pembuka dan tag html penutup. 
-                        </p>
-                        <img src="assets/img/tag html.png" alt="">
-                        <p>
-                            selanjutnya kita masuk ke bagiant tag <em>head</em>. Fungsi <em>head</em> sebagai tempat menuliskan link yang menghunungkan html dan css serta menuliskan element metadata.
-                            penulisan <em>head</em> dilakukan di dalam tag <em>html</em>. tag <em>head</em> juga struktur penulisannya sama dengan html, harus ada <em>head</em> pembuka dan tag <em>/head</em> 
-                            penutup.
-                        </p>
-                        <img src="assets/img/tag head.png" alt="">
-                    </div>
-                </article>
-            </section>
-            <!-- <footer id="footer">
-
-            </footer> -->
+<body>               
+    <nav>
+        <div class="logo">
+            <h2><a href="index.html">My Profile</a></h2>
         </div>
-    </div>
+        <ul id="nav-link">
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="">about me</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+    
+        <div class="profile-picture">
+            <img id="my-pp" src="assets/img/IMG_0089.jpg" alt="">
+            <div class="my-profile">
+                    <div class="my-name">
+                        <span>My name:</span>
+                        <h2>MUSTAQIN ISHAK</h2>
+                    </div>
+            </div>
+            <div class="asal-lahir">
+                <div class="from">
+                    <span>im From:</span>
+                    <h2>makassar</h2>
+                </div>
+            </div>
+        </div>
+        
+    
 </body>
 </html>
